@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+
+	<script defer="true" language="javascript" type="text/javascript" src="lib/p5.min.js"></script>
+	<script defer="true" language="javascript" type="text/javascript" src="lib/p5.dom.min.js"></script>
+	<script defer="true" language="javascript" type="text/javascript" src="lib/p5.play.js"></script>
+	<script src="name.js"></script>
+	<style>
+		html,
+		body {
+			height: 100%;
+		}
+		
+		body {
+			margin: 0;
+			display: flex;
+			/* This centers our sketch horizontally. */
+			justify-content: center;
+			/* This centers our sketch vertically. */
+			align-items: center;
+		}
+	</style>
+	<script>
+		$('#defaultCanvas0').fadeIn(4000);
+	</script>
+	<title>JRA</title>
+</head>
+
+<body>
+	<div id="p5_loading" class="loadingclass"><img src="assets/loading.png"></div>
+	<div id="jra">
+		<script defer="true" type="text/javascript" src="jra.js"></script>
+
+	</div>
+</body>
+
+</html>
