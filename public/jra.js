@@ -36,7 +36,7 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(1200, 600);
+	createCanvas(window.innerWidth, window.innerHeight);
 
 	MAP_W = 4800;
 	MAP_H = 4800;
