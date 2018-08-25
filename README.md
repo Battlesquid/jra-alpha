@@ -1,2 +1,2 @@
-# jra-alpha
-Alpha version of JRA
+# JRA-alpha
+Pre-Alpha version of JRA
