@@ -41,16 +41,6 @@ io.on('connection', function(socket) {
 	socket.on('ping', function() {
 		socket.emit('pong');
 	});
-	// socket.on('start', function(data) {
-	// 	plist.push(data);
-	// 	io.emit('id', plist.length)
-	// });
-
-
-	// socket.on('update', function(data) {
-	// 	plist[data.id].position.x = data.x;
-	// 	plist[data.id].position.y = data.y;
-	// });
 
 	socket.on('disconnect', function() {
 		for (var i = 0; i < plist.length; i++) {
